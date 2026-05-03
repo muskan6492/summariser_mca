@@ -1,7 +1,9 @@
+# Backend (Exclude from this repo)
+server/
+
 # Dependencies
 node_modules/
 client/node_modules/
-server/node_modules/
 
 # Environment Variables
 .env
@@ -11,7 +13,6 @@ server/node_modules/
 # Build Artifacts
 client/dist/
 client/build/
-server/dist/
 
 # IDE & OS
 .vscode/
