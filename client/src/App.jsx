@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
-const API_BASE = 'http://localhost:5001/api';
+const API_BASE = 'https://summariser-mca-backend.onrender.com/api';
 
 function App() {
   const [inputText, setInputText] = useState('');
